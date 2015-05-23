@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.grupo1.ets" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Geografia</name>
+    <description>
+       Aplicación  phonegap
+El nombre del continente.
+Una imagen del continente (mapa).
+Una pequeña descripción del continente.
+Un pequeño grupo de selección múltiple con al menos tres países del continente.
+Un comando para ver los países elegidos ("Ver países").
+Un comando para volver atrás ("Volver"), que si es seleccionado haría que se volviera a la lista de continentes.
+    </description>
+    <author email="grupo1.ets.2015@gmail.com" href="grupo1ets.esy.es">
+        Grupo 1 ETS
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
