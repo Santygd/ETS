@@ -1,0 +1,93 @@
+#reclam {	
+color: #F00;
+font-family: Verdana, Arial, Helvetica, sans-serif;	
+font-size: 17px;
+text-decoration: none;	
+font-weight: bold;
+line-height: 130%;
+padding: 5px 0 10px 0;
+}
+
+#reclam2 {	
+color: #0062C8;
+font-family: Verdana, Arial, Helvetica, sans-serif;	
+font-size: 13px;
+text-decoration: none;	
+font-weight: bold;
+line-height: 140%;
+padding: 20px 0 0 0;
+}
+
+#reclam3 {	
+color: #F00;
+font-family: Verdana, Arial, Helvetica, sans-serif;	
+font-size: 13px;
+text-decoration: none;	
+font-weight: bold;
+line-height: 130%;
+padding: 20px 0 50px 0;
+}
+
+#taula {
+margin: 0;
+padding: 0 10px 0 20px;
+list-style: disc;
+text-align: justify;
+}
+
+#taula ul li {
+padding-bottom: .7em;
+}
+
+#cela {
+padding: 10px 20px 5px 5px;
+}
+
+#cela2 {
+padding: 0 20px;
+}
+
+span.big2 {
+color: #505050;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+text-decoration: none;
+font-weight: normal;
+line-height: 19px;
+}
+
+span.bigred2 {
+color: #f00;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+text-decoration: none;
+font-weight: normal;
+line-height: 19px;
+}
+
+span.bigred3 {
+color: #000;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+text-decoration: none;
+font-weight: normal;
+line-height: 19px;
+}
+
+#format {
+float: left;
+text-align: left;
+padding: 10px;
+width: 30%;
+min-height: 115px;
+vertical-align: top;
+}
+
+#formato {
+float: left;
+text-align: left;
+padding: 0 10px 5px 10px;
+width: 30%;
+min-height: 115px;
+vertical-align: top;
+}
