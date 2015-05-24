@@ -1,9 +1,9 @@
 ul#continents {
 	list-style: none;
-	background: url("../img/map.png") no-repeat 0 0;
+	background: url("../img/map_90_1.png") no-repeat 0 0;
 	position: relative;
-	width: 100%;/*580px;*/
-	height: 268px;
+	width: 100%;
+	height: 245px;
 	margin: 0;
 	padding: 0;
 }
@@ -11,62 +11,53 @@ ul#continents li {
 	position: absolute;
 }
 ul#continents li a:hover {
-	background: url(../img/map.png) no-repeat 0 0;
+	background: url(../img/map_90_1.png) no-repeat 0 0;
 }
 
 #northamerica {
-	width: 227px;
-	height: 142px;
-	top: 2px;
+	width: 185px;
+	height: 235px;
+	top: 1px;
 	left: 0px;
 }
 ul#continents li#northamerica a:hover {
-	background-position: 0 -270px;
-}
-#southamerica {
-	width: 108px;
-	height: 130px;
-	top: 131px;
-	left: 76px;
-}
-ul#continents li#southamerica a:hover {
-	background-position: -226px -273px;
+	background-position: -1px -243px;
 }
 #africa {
-	width: 120px;
-	height: 140px;
-	top: 83px;
-	left: 209px;
+	width: 110px;
+	height: 125px;
+	top: 75px;
+	left: 185px;
 }
 ul#continents li#africa a:hover {
-	background-position: -209px -417px;
+	background-position: -185px -375px;
 }
 #europe {
-	width: 120px;
-	height: 84px;
+	width: 110px;
+	height: 75px;
 	top: 1px;
-	left: 211px;
+	left: 185px;
 }
 ul#continents li#europe a:hover {
-	background-position: -22px -427px;
+	background-position: -213px -253px;
 }
 #asia {
-	width: 215px;
-	height: 175px;
+	width: 195px;
+	height: 155px;
 	top: 1px;
-	left: 283px;
+	left: 253px;
 }
 ul#continents li#asia a:hover {
-	background-position: -363px -268px;
+	background-position: -325px -242px;
 }	
 #australia {
-	width: 114px;
-	height: 95px;
-	top: 152px;
-	left: 432px;
+	width: 98px;
+	height: 85px;
+	top: 138px;
+	left: 385px;
 }
 ul#continents li#australia a:hover {
-	background-position: -412px -455px;
+	background-position: -368px -412px;
 }
 
 ul#continents li a span {
