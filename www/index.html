@@ -1,258 +1,78 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="es">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<title>Geografía</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+    </head>
+    <body>
+	<div data-role="page">
+	     <div data-role="header">
+    		<h1>Geografía</h1>
+  	     </div>
+	<div id="content">
+  	     <div data-role="main" class="ui-content">
+	    	<ul id="continents">
+    		    <li id="northamerica">
+        		<a href="#">
+            		<span>
+                	   <strong>Norte America</strong><br>
+                	   Población: 565.265.000
+            		</span>
+        		</a>
+    		    </li>
+		    <li id="southamerica">
+   			<a href="#">
+            		<span>
+                	   <strong>Sur America</strong><br>
+                	   Población: 385.742.554
+            		</span>
+        		</a>
+    		    </li>
+    		    <li id="asia">
+    			<a href="#">
+            		<span>
+                	   <strong>Asia</strong><br>
+                	   Población: 4.164.252.000
+            		</span>
+        		</a>
+    		    </li>
+    		    <li id="australia">
+    			<a href="#">
+            		<span>
+                	   <strong>Australia</strong><br>
+                	   Población: 23.850.700
+            		</span>
+        		</a>
+    		    </li>
+    		    <li id="africa">
+        		<a href="#">
+        		<span>
+            		   <strong>Africa</strong><br>
+            		   Población: 922.011.000
+        		</span>
+        		</a>
+    		    </li>
+    		    <li id="europe">
+        		<a href="#">
+            		<span>
+                	   <strong>Europa</strong><br>
+                	   Población: 742.452.000
+            		</span>
+        		</a>
+    		    </li>
+		</ul>
+	     </div>
+	</div>
+	     <div data-role="footer" data-position="fixed" data-fullscreen="true">
+		<h1>Grupo 1 - ETS - 2º DAM</h1>
+	     </div>
 
-	<head>
-		<meta charset="utf-8">
-		<title>CONOCIENDO NUESTRO MUNDO</title>
-		<meta name="viewport" content="device-width"/> <!--ver bien la pantalla en cualquier dispositivo-->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-	</head>
-
-	<body>
-	
-	<!-- PAGINA 1-->
-	
-		<div data-role="page" id="page">
-		
-			<div data-role="header" data-position="fixed">
-				<h1>Continentes</h1>
-			</div>
-			
-			<div data-role="content">
-				
-					<a href="#page2" id="america" data-role="button"data-theme="d" data-transition="slideup">America</a>
-					<a href="#page3" id="asia" data-role="button"data-theme="d" data-transition="slideup">Asia</a>
-					<a href="#page4" id="europa" data-role="button"data-theme="d" data-transition="slideup">Europa</a>
-					<a href="#page5" id="africa" data-role="button"data-theme="d" data-transition="slideup">Africa</a>
-					<a href="#page6" id="oceania" data-role="button"data-theme="d" data-transition="slideup">Oceania</a>
-				
-				
-			</div>
-									
-			<div data-role="footer" data-position="fixed" id="footFixed">
-				<h4>Realizado por: Santiago, Juan y Vicky 2015</h4>
-			</div>
-		</div>
-		
-		
-	<!--PAGINA 2 CONTINENTE AMERICANO-->
-	
-
-	<div data-role="page" id="page2" data-add-back-btn="true">
-	
-	<a href="#page" data-role="button" data-rel="back" data-inline="true" data-transition="slide">Go Back</a>
-	
-		<div data-role="header">
-			<h1>Continente Americano</h1>
-		</div>
-		
-		<div data-role="content" >
-		
-			<img src="images/1.jpg"><!--aquí debería ir foto del continente-->
-			
-			
-				<h1>Descripción</h1>
-			<p>	
-			América es el segundo continente más grande del planeta, después de Asia. 
-			Ocupa gran parte del hemisferio occidental de la Tierra. Se extiende desde
-			el océano Glacial Ártico por el norte hasta el Cabo de Hornos por el sur, 
-			en la confluencia de los océanos Atlántico y Pacífico, los cuales a su vez 
-			delimitan al continente por el este y el oeste, respectivamente.
-			</p>
-			
-				<h2>Paises</h2>
-			<form action="">
-				<input type="checkbox" name="Estados Unidos" value="Estados Unidos">Estados Unidos<br>
-				<input type="checkbox" name="Argentina" value="Argentina">Argentina
-				<input type="checkbox" name="Venezuela" value="Venezuela">Venezuela
-			</form>	
-			
-			<a href="#pageXXXXX" id="verpais" data-role="button"data-theme="d" data-transition="slideup">ver pais</a>
-		
-		</div>
-		
-			<div data-role="footer" data-position="fixed">
-				<h4>fin pagina Continente Americano</h4>
-			</div>
-		</div>
-		
-	<!--PAGINA 3 CONTINENTE ASIATICO-->
-	
-	<div data-role="page" id="page3" data-add-back-btn="true">
-	
-	<a href="#page" data-role="button" data-rel="back" data-inline="true" data-transition="slide">Go Back</a>
-	
-		<div data-role="header">
-			<h1>Continente Asiático</h1>
-		</div>
-		
-		<div data-role="content" >
-		
-			<img src="images/2.jpg"><!--aquí debería ir foto del continente-->
-			
-			
-				<h1>Descripción</h1>
-			<p>	
-			Asia o continente asiático es el continente más extenso y poblado de la Tierra que, 
-			con cerca de 44 millones de km², supone el 8,70% del total de la superficie terrestre 
-			y el 29,45 % de las tierras emergidas y, con 4 140 000 000 de habitantes, el 61 % de la 
-			población mundial. Se extiende sobre la mitad oriental del hemisferio Norte, desde el océano 
-			Glacial Ártico, al norte, hasta el océano Índico, al sur. Limita, al oeste, con los montes Urales, 
-			y al este, con el océano Pacífico.
-			</p>
-			
-				<h2>Paises</h2>
-			<form action="">
-				<input type="checkbox" name=" Corea del Norte" value=" Corea del Norte"> Corea del Norte<br>
-				<input type="checkbox" name="Filipinas" value="Filipinas">Filipinas<br>
-				<input type="checkbox" name=" Timor Oriental" value=" Timor Oriental"> Timor Oriental
-			</form>	
-			
-			<a href="#pageXXXXX" id="verpais" data-role="button"data-theme="d" data-transition="slideup">ver pais</a>
-		
-		</div>
-		
-		
-			<div data-role="footer" data-position="fixed">
-				<h4>fin pagina Continente Asiático</h4>
-			</div>
-		</div>	
-		
-		
-		<!--PAGINA 4 CONTINENTE EUROPEO-->
-	
-	<div data-role="page" id="page4" data-add-back-btn="true">
-	
-	<a href="#page" data-role="button" data-rel="back" data-inline="true" data-transition="slide">Go Back</a>
-	
-		<div data-role="header">
-			<h1>Continente Europeo</h1>
-		</div>
-		
-		<div data-role="content" >
-		
-			<img src="images/3.jpg"><!--aquí debería ir foto del continente-->
-			
-			
-				<h1>Descripción</h1>
-			<p>	
-			Europa es uno de los continentes que forman el supercontinente euroasiático, 
-			situado entre los paralelos 36º y 70º de latitud norte. De forma convencional y por
-			motivos históricos es considerada un continente, tras la delimitación realizada por 
-			el geógrafo ruso Vassili Tatichtchev quien deseaba señalar la pertenencia de Rusia a 
-			Europa y a Asia.1 Las fronteras de Europa y la población son objeto de controversia, 
-			ya que el término continente puede referirse a un bien cultural y político o a distinciones 
-			fisiográficas.
-			</p>
-			
-				<h2>Paises</h2>
-			<form action="">
-				<input type="checkbox" name=" España" value=" España"> España<br>
-				<input type="checkbox" name="Inglaterra" value="Inglaterra">Inglaterra<br>
-				<input type="checkbox" name="Francia" value="Francia"> Francia
-			</form>	
-			
-			<a href="#pageXXXXX" id="verpais" data-role="button"data-theme="d" data-transition="slideup">ver pais</a>
-		
-		</div>
-		
-		
-			<div data-role="footer" data-position="fixed">
-				<h4>fin pagina Continente Europeo</h4>
-			</div>
-		</div>	
-		
-				<!--PAGINA 5 CONTINENTE AFRICANO-->
-	
-	<div data-role="page" id="page5" data-add-back-btn="true">
-	
-	<a href="#page" data-role="button" data-rel="back" data-inline="true" data-transition="slide">Go Back</a>
-	
-		<div data-role="header">
-			<h1>Continente Africano</h1>
-		</div>
-		
-		<div data-role="content" >
-		
-			<img src="images/4.jpg"><!--aquí debería ir foto del continente-->
-			
-			
-				<h1>Descripción</h1>
-			<p>	
-			África es el tercer continente (después de Asia y América) más grande del mundo por 
-			extensión territorial. Limita al norte con el mar Mediterráneo, al oeste con el océano 
-			Atlántico, al sur con la conjunción de los océanos Atlántico e Índico y al este con el mar 
-			Rojo y el océano Índico. Posee una superficie total de 30 272 922 km² (621 600 en masa insular), 
-			que representa el 20,4 % del total terrestre. La población es de mil millones de habitantes, menos del 15 %. 
-			El continente se divide en 54 países, siendo todos ellos, miembros de la Unión Africana, con excepción de 
-			Marruecos.
-			</p>
-			
-				<h2>Paises</h2>
-			<form action="">
-				<input type="checkbox" name="Angola" value="Angola">Angola<br>
-				<input type="checkbox" name="Cabo Verde" value="Cabo Verde">Cabo Verde<br>
-				<input type="checkbox" name="República del Congo" value="República del Congo">República del Congo
-			</form>	
-			
-			<a href="#pageXXXXX" id="verpais" data-role="button"data-theme="d" data-transition="slideup">ver pais</a>
-		
-		</div>
-		
-		
-			<div data-role="footer" data-position="fixed">
-				<h4>fin pagina Continente Africano</h4>
-			</div>
-		</div>	
-		
-		
-		<!--PAGINA 6 OCEANIA-->
-	
-		<div data-role="page" id="page6" data-add-back-btn="true">
-	
-			<a href="#page" data-role="button" data-rel="back" data-inline="true" data-transition="slide">Go Back</a>
-	
-			<div data-role="header">
-				<h1>OCEANIA</h1>
-			</div>
-		
-			<div data-role="content" >
-		
-				<img src="images/5.jpg"><!--aquí debería ir foto del continente-->
-			
-				<h1>Descripción</h1>
-			<p>	
-			Oceanía es un continente insular de la Tierra constituido por la plataforma continental de 
-			Australia, las islas de Nueva Guinea, Nueva Zelanda y los archipiélagos coralinos y volcánicos de 
-			Melanesia, Micronesia y Polinesia. Un sector de los expertos considera que Insulindia también forma 
-			parte de Oceanía.1 Todas estas islas están distribuidas por el océano Pacífico. Con una extensión de 
-			9 008 458 km², se trata del continente más pequeño del planeta.
-			</p>
-			
-				<h2>Paises</h2>
-			<form action="">
-				<input type="checkbox" name="Australia" value="Angola">Angola<br>
-				<input type="checkbox" name="Nueva Zelanda" value="Cabo Verde">Cabo Verde<br>
-				<input type="checkbox" name="Isla Fiyi" value="Islas Fiyi">Islas Fiyu
-			</form>	
-			
-			<a href="#pageXXXXX" id="verpais" data-role="button"data-theme="d" data-transition="slideup">ver pais</a>
-		
-		</div>
-		
-		
-			<div data-role="footer" data-position="fixed">
-				<h4>fin pagina Continente Africano</h4>
-			</div>
-		</div>	
-		
-		
-	</body>	
-	
-</html>	
-	
-	
+	</div>
+    </body>
+</html>
