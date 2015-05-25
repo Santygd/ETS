@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<title>Geografía</title>
+		<link rel="stylesheet" type="text/css" href="css/css.css">
+	</head>
+
+<body>
+
+<!--PAGINA CONTINENTE EUROPEO-->
+
+<!--PAGINA 1 INTRODUCCION  -->
+
+	<div data-role="page" id="introduccion" data-add-back-btn="true">
+		<div data-role="header">
+			<a href="#page" data-role="button" data-rel="back" data-inline="true" data-transition="slide"><</a>
+			<h1>Europa</h1>
+		</div>
+
+		<div data-role="content">
+
+			<center><img src="img/img_paises/continentes/europe.png" style="-moz-border-radius: 225px; border-radius: 225px;
+			-webkit-border-radius: 225px "></center>
+
+				<center><h2>Descripción</h2></center>
+			<p>
+				Europa es uno de los continentes que forman el supercontinente euroasiático,
+				situado entre los paralelos 36º y 70º de latitud norte. De forma convencional y
+				por motivos históricos es considerada un continente, tras la delimitación realizada
+				por el geógrafo ruso Vassili Tatichtchev quien deseaba señalar la pertenencia de
+				Rusia a Europa y a Asia.1 Las fronteras de Europa y la población son objeto de controversia,
+				ya que el término continente puede referirse a un bien cultural y político o a distinciones
+				fisiográficas.
+			</p>
+
+				<center><h2>Paises</h2></center>
+			<div id="boton">
+
+				<a href="#1españa" 		id="españa" 	data-role="button"data-theme="d" data-transition="slide">España</a>
+				<a href="#2inglaterra" 	id="inglaterra" data-role="button"data-theme="d" data-transition="slide">Inglaterra</a>
+				<a href="#3francia" 		id="francia" 	data-role="button"data-theme="d" data-transition="slide">Francia</a>
+			</div>
+		</div>
+			   <div data-role="footer" data-position="">
+				       <h5>Continente Europeo</h5>
+			   </div>
+	</div><!--fin pag -->
+          <!--pag 1-->
+  <div data-role="page" id="1españa" data-add-back-btn="true">
+
+  		<div data-role="header">
+  			<a href="#españa" data-role="button" data-rel="back" data-inline="true" data-transition="slide">volver
+        </a>
+  			<h1>España</h1>
+  		</div>
+  		<div data-role="content">
+        <div class="ui-grid-solo"><!--imagen -->
+            <div class="ui-block-a">
+      <center><img src="img/img_paises/europa/esp1.png" style="-moz-border-radius: 225px; border-radius: 225px;
+        -webkit-border-radius: 225px "></center>
+      </div>
+    </div>
+    <!--descripcion -->
+    <div class="ui-grid-solo ui-responsive">
+        <div class="ui-block-a">
+        <p>
+        España es un país soberano, miembro de la Unión Europea, constituido en
+				Estado social y democrático de derecho y cuya forma de gobierno es la
+				monarquía parlamentaria. Su territorio está organizado en diecisiete
+				comunidades autónomas y dos ciudades autónomas, además de cincuenta
+				provincias. Su capital es la villa de Madrid.
+        </p>
+
+      </div>
+    </div>
+  <!--detalle pais -->
+  <div class="ui-grid-solo">
+      <div class="ui-block-a">
+        <div data-role="collapsible-set" data-corners="false" data-theme="a" data-content-theme="a">
+
+          <div data-role="collapsible">
+          <h3>Datos</h3>
+              <ul data-role="listview"  data-split-theme="a" data-inset="true">
+                  <li>
+                    <img src="img/img_paises/europa/f-espana.png" style="margin:10px auto;">
+                      <h2>Madrid</h2>
+                      <p>Capital</p>
+                  </li>
+                  <li>
+                    <img src="img/img_paises/europa/espana.png" >
+                      <h2>Euro (€, EUR)</h2>
+                      <p>Moneda oficial</p>
+                  </li>
+               </ul>
+          </div>
+          <div data-role="collapsible" style="text-align:center;">
+                    <h3>Idioma oficial</h3>
+                    <p>Español</p>
+                    <p>Gallego</p>
+                    <p>Euskera</p>
+                    <p>Catalán</p>
+          </div>
+        </div>
+      </div>
+   </div>
+  </div><!--FIN CONENIDO pais -->
+    <!--
+  			<div data-role="footer" data-position="fixed">
+  				<h1>America</h1>
+  			</div>-->
+  </div>
+    <!--FIN  pais1 -->
+
+
+
+  		<!--PAIS 2   -->
+  <div data-role="page" id="2inglaterra" data-add-back-btn="true">
+
+  		<div data-role="header" data-position="fixed">
+  			<a href="#inglaterra" data-role="button" data-rel="back" data-inline="true" data-transition="slide">Go Back</a>
+  			<h1>Inglaterra</h1>
+  		</div>
+
+  	<div data-role="content"><!--CONTENIDO -->
+          <div class="ui-grid-solo"><!--imagen -->
+            <div class="ui-block-a">
+  			       <center><img src="img/img_paises/europa/england-mapa.png"
+                 style="-moz-border-radius: 225px; border-radius: 225px;
+  			            -webkit-border-radius: 225px "></center><!--aquí debería ir foto del continente-->
+            </div>
+         </div>
+        <div class="ui-grid-solo"><!--imagen -->
+              <div class="ui-block-a">
+  				<!--<center><h1>Descripción</h1></center>-->
+      			    <p>
+                Inglaterra es una de las cuatro naciones constituyentes del Reino Unido.
+          			Su territorio está formado geográficamente por la parte sur y central
+          			de Gran Bretaña, isla que comparte junto a Escocia y Gales, y cerca de 100
+          			islas más pequeñas como las Islas Sorlingas y la Isla de Wight. Limita al
+          			norte con Escocia, al oeste con Gales —sus dos fronteras terrestres—, al
+          			noroeste con el mar de Irlanda, al suroeste con el mar Celta, al este con el
+          			mar del Norte y al sur con el canal de la Mancha.
+      			   </p>
+          </div>
+      </div>
+      <!--detalle pais -->
+      <div class="ui-grid-solo">
+          <div class="ui-block-a">
+            <div data-role="collapsible-set" data-corners="false" data-theme="a" data-content-theme="a">
+              <div data-role="collapsible">
+                <h3>Datos</h3>
+                <ul data-role="listview"  data-split-theme="a" data-inset="true">
+                    <li>
+                      <img src="img/img_paises/europa/f-england.png" style="margin:10px auto;">
+                        <h2>Londres</h2>
+                        <p>Capital</p>
+                    </li>
+                    <li>
+                      <img src="img/img_paises/europa/england.png" >
+                        <h2>Libra esterlina (£, GBP)</h2>
+                        <p>Moneda oficial</p>
+                    </li>
+                 </ul>
+              </div>
+              <div data-role="collapsible" style="text-align:center;">
+                        <h3>Idioma oficial</h3>
+                        <p>Inglés</p>
+              </div>
+             </div>
+          </div>
+      </div>
+  	</div>
+
+  		<!--<div data-role="footer" data-position="fixed">
+  			<h1> </h1>
+  		</div>-->
+
+  </div>	<!--PAIS 2 fin  -->
+
+
+  		<!--PAIS 3   -->
+  <div data-role="page" id="3francia" data-add-back-btn="true">
+
+      		<div data-role="header">
+      			<a href="#francia" data-role="button" data-rel="back"
+            data-inline="true" data-transition="slide">retour
+            </a>
+      			<h1>Francia</h1>
+      		</div>
+
+    <div data-role="content">
+
+            <div class="ui-grid-solo"><!--imagen -->
+                <div class="ui-block-a">
+          <center><img src="img/img_paises/europa/france-mapa.png"
+            style="-moz-border-radius: 525px; border-radius: 325px;
+               -webkit-border-radius: 525px "></center>
+              </div>
+          </div>
+        <!--descripcion -->
+        <div class="ui-grid-solo ui-responsive">
+            <div class="ui-block-a">
+        <!--<center><h3>Descripción</h3></center>-->
+            <p>
+              Francia es un país soberano, miembro de la Unión Europea, constituido en Estado
+      				social y democrático de derecho y cuya forma de gobierno es la república semipresidencialista.
+      				Su territorio, con capital en París, se extiende sobre una superficie total de 675 417 km² y
+      				cuenta con una población de 66 millones de habitantes.
+            </p>
+         </div>
+       </div>
+      <!--detalle pais -->
+      <div class="ui-grid-solo">
+          <div class="ui-block-a">
+            <div data-role="collapsible-set" data-corners="false" data-theme="a" data-content-theme="a">
+
+              <div data-role="collapsible" >
+                <h3 >Datos</h3>
+                  <ul data-role="listview"  data-split-theme="a" data-inset="true">
+                      <li>
+                        <img src="img/img_paises/europa/f-francia.png" style="margin:10px auto;">
+                          <h2>París</h2>
+                          <p>Capital</p>
+                      </li>
+                      <li>
+                        <img src="img/img_paises/europa/francia.png" >
+                          <h2>Euro (€, EUR)</h2>
+                          <p>Moneda oficial</p>
+                      </li>
+                   </ul>
+              </div>
+              <div data-role="collapsible" style="text-align:center;">
+                    <h3>Idioma oficial</h3>
+                    <p >Francés</p>
+              </div>
+            </div>
+        </div>
+      </div>
+  </div><!--FIN CONENIDO pais -->
+        <!--
+      			<div data-role="footer" data-position="fixed">
+      				<h1>America</h1>
+      			</div>-->
+</div> <!--FIN  pais3 -->
+
+
+</body>
+ </html>
